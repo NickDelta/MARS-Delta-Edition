@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="mars-delta-edition:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mars_delta_edition_jar</output-path>
+    <root id="archive" name="mars-4-5-delta-edition.jar">
+      <element id="module-output" name="mars-delta-edition" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/jackson-core-2.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/jackson-databind-2.11.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/jackson-annotations-2.11.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "RegDst",
+    "RType": "1",
+    "IType": "0",
+    "JType": "X",
+    "Branch": "X",
+    "Load": "0",
+    "Store": "X"
+  },
+  {
+    "name": "Branch",
+    "RType": "0",
+    "IType": "0",
+    "JType": "0",
+    "Branch": "1",
+    "Load": "0",
+    "Store": "0"
+  },
+  {
+    "name": "MemRead",
+    "RType": "0",
+    "IType": "0",
+    "JType": "0",
+    "Branch": "0",
+    "Load": "1",
+    "Store": "0"
+  },
+  {
+    "name": "MemtoReg",
+    "RType": "0",
+    "IType": "0",
+    "JType": "X",
+    "Branch": "X",
+    "Load": "1",
+    "Store": "X"
+  },
+  {
+    "name": "MemWrite",
+    "RType": "0",
+    "IType": "0",
+    "JType": "0",
+    "Branch": "0",
+    "Load": "0",
+    "Store": "1"
+  },
+  {
+    "name": "ALUSrc",
+    "RType": "0",
+    "IType": "1",
+    "JType": "X",
+    "Branch": "0",
+    "Load": "1",
+    "Store": "1"
+  },
+  {
+    "name": "RegWrite",
+    "RType": "1",
+    "IType": "1",
+    "JType": "0",
+    "Branch": "0",
+    "Load": "1",
+    "Store": "0"
+  },
+  {
+    "name": "ALUOp0",
+    "RType": "0",
+    "IType": "0",
+    "JType": "X",
+    "Branch": "1",
+    "Load": "0",
+    "Store": "0"
+  },
+  {
+    "name": "ALUOp1",
+    "RType": "1",
+    "IType": "0",
+    "JType": "X",
+    "Branch": "0",
+    "Load": "0",
+    "Store": "0"
+  },
+  {
+    "name": "Jump",
+    "RType": "0",
+    "IType": "0",
+    "JType": "1",
+    "Branch": "0",
+    "Load": "0",
+    "Store": "0"
+  }
+]
